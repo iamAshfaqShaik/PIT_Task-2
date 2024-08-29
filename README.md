@@ -32,5 +32,5 @@ Demo
 For a live demo of the stopwatch application, visit: Stopwatch Web Application (https://iamashfaqshaik.github.io/PIT_Task-2/spd1/)
 
 Author
-Name: Shaik Albaz
-GitHub: Shaik Albaz (https://github.com/iamAshfaqShaik)
+Name: Shaik Ashfaq
+GitHub: Shaik Ashfaq (https://github.com/iamAshfaqShaik)
