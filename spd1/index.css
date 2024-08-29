@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family-poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c1c1c;
+    
+}
+.container
+{
+    position: relative;
+    background: #3f78b9;
+    height: 400px;
+    width: 400px;
+    
+    border-radius: 50px;
+    border-top-left-radius: 225px;
+    border-top-right-radius: 225px;
+    box-shadow: 25px 25px 75px rgba(0,0,0,0.75),
+    10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(135, 50, 168, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clock
+{
+    position: relative;
+    margin-top: -50px;
+ 
+    background: #2f363e;
+    
+    box-shadow: 10px 50px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.clock p{
+    font-size: 40px;
+    
+}
+.container .btns button{
+    width: 60px;
+    height: 60px;
+    color: wheat;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+.btn-start{
+    border: 3px solid magenta;
+    background: linear-gradient(135deg, #bd2210, #e5550b);
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset 4px 4px 8px #8a3947,
+        inset -4px -4px 8px #bd2210;
+}
+.btn-start:active{
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset -19px -10px 8px #492ea3,
+        inset 10px 10px 8px #bd2210;
+}
+.btn-stop{
+    border: 3px solid orange;
+    background: linear-gradient(135deg, #bd2210, #e5550b);
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset 4px 4px 8px #e5550b,
+        inset -4px -4px 8px #bd2210;
+}
+.btn-stop:active{
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset -19px -10px 8px #e5550b,
+        inset 10px 10px 8px #bd2210;
+}
+.btn-reset{
+    border: 3px solid magenta;
+    background: linear-gradient(135deg, #bd2210, #e5550b);
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset 4px 4px 8px #8a3947,
+        inset -4px -4px 8px #bd2210;
+}
+.btn-reset:active{
+    box-shadow: 
+        10px 10px 12px #151618, 
+        -10px -10px 12px #222529,
+        inset -19px -10px 8px #e5550b,
+        inset 10px 10px 8px #bd2210;
+}
+@media(max-width:991px){
+    .container{
+        height: 480px;
+    }
+    .clock{
+        width: 350px;
+        height: 350px;
+    }
+    .clock p{
+        font-size: 45px;
+        font-weight: 550;
+    }
+    .container .btns button{
+        width: 75px;
+        height: 75px;
+        color: wheat;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 25px;
+        margin: 10px;
+    }
+}
