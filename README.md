@@ -1,7 +1,7 @@
 # PIT_Task-2
 
 # Project Overview
-This project is a web-based stopwatch application developed as part of the SkillCraft Technology Task 02. The application allows users to start, pause, reset, and track lap times with ease. The stopwatch is built using HTML, CSS, and JavaScript, offering a simple yet effective tool for accurately measuring and recording time intervals.
+This project is a web-based stopwatch application developed as part of the Prodigy Infotech Task 02. The application allows users to start, pause, reset, and track lap times with ease. The stopwatch is built using HTML, CSS, and JavaScript, offering a simple yet effective tool for accurately measuring and recording time intervals.
 
 Introduction
 
